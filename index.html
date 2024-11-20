@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./index.js"></script>
+<body>
+    <video autoplay muted loop id="wtr">
+        <source src="./wtr.mp4" type="video/mp4">
+      </video>
+    <div id="head">
+        <div id="mainhead"> 
+            Weather Forecast
+        </div>
+        <div id="boxparent">
+            <div id="box">
+                <div id="citysearchbody">
+                    <input type="text" id="inp" placeholder="Enter City Name">
+                    <button type="submit" id="searchbutt" onclick="citysearch()">Search</button>
+
+                </div>
+                <div id="mycurrsearch">
+                    <button type="submit" id="currsearchbutt" onclick="currsearch()">Current Location</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

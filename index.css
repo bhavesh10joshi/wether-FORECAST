@@ -1,0 +1,136 @@
+#wtr {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+#head
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#mainhead
+{
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6rem;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+    font-stretch: expanded;
+    margin-top: 2rem;
+}
+#boxparent
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+#box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; /* Centers the text vertically */
+    width: 35rem;
+    height: 25rem;
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Adjust the blur intensity */
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+#citysearchbody
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -50px;
+}
+#inp
+{
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: blue;
+    background-color:rgba(190, 187, 187, 0.832)
+}
+input::placeholder {
+    color: black;
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.7; /* Adjust opacity if needed */
+    text-align: center;
+}
+#searchbutt
+{
+    width: 80px;
+    height: 55px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: blue;
+    margin-left: 5px;
+    font-size: 1rem;
+    font-style: italic;
+    background-color:lightskyblue;
+    cursor: pointer;
+}
+#searchbutt:hover {
+    transform: scale(2); /* Slightly larger on hover */
+}
+#mycurrsearch
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+#currsearchbutt
+{
+    width: 200px;
+    height: 55px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: blue;
+    margin-left: 5px;
+    font-size: 1rem;
+    font-style: italic;
+    background-color:lightskyblue;
+    cursor: pointer;
+}
+#currsearchbutt:hover {
+    transform: scale(2); /* Slightly larger on hover */
+}
+#databoxparent
+{
+    display: flex;
+    justify-content: center;
+}
+#databox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    width: 70rem;
+    height: 40rem;
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Adjust the blur intensity */
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+#dataparent
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    flex-direction: column
+}
+.maindata
+{
+    margin-top: 1rem;
+}
